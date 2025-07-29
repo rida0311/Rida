@@ -3,25 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <title>Training Diary - Rida</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <style>
+        /* General Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f9ff;
             color: #333;
+            padding: 40px 20px;
         }
+
         h1 {
-            color: #444;
+            text-align: center;
+            color: #0a66c2;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
         }
+
+        p {
+            text-align: center;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
         ul {
-            line-height: 1.8;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            list-style-type: none;
+            max-width: 900px;
+            margin: 0 auto;
         }
+
+        li {
+            background-color: #ffffff;
+            padding: 15px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+        li:hover {
+            transform: translateY(-4px);
+        }
+
         a {
-            color: #007acc;
+            color: #0a66c2;
+            font-weight: 600;
             text-decoration: none;
+            font-size: 1rem;
         }
+
         a:hover {
             text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.95rem;
+            color: #777;
         }
     </style>
 </head>
@@ -60,5 +108,9 @@
         <li><a href="Day 29.pdf" target="_blank">Day 29</a></li>
         <li><a href="Day 30.pdf" target="_blank">Day 30</a></li>
     </ul>
+
+    <footer>
+        Made by Rida | Web Development @ OOPsInfoSolutions
+    </footer>
 </body>
 </html>
